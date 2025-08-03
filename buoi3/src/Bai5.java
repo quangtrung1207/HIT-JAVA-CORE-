@@ -13,13 +13,13 @@ public class Bai5 {
              for(int i=top;i<=bot;i++){
                  a[i][rig]=gt++;
              }
-         }rig--;
+         rig--;
          for(int i=rig;i>=lef;i--){
              a[bot][i]=gt++;}
          bot--; for (int i = bot; i >= top; i--) {
             a[i][lef] = gt++;
         }
-        lef++;
+        lef++;}
 
 
         return a;
